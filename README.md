@@ -1,8 +1,8 @@
 # TURRIS: an open source database and Python tools to compute the fundamental frequency of historic masonry towers
  
-***Authors: Arnaud Montabert*, Cédric Giry*, Claire Limoge Schraen, Jade Lépine, Clarisse Choueiri, E. Diego Mercerat, and Plilippe Guéguen***
+**Authors:** ***Arnaud Montabert*, Cédric Giry*, Claire Limoge Schraen, Jade Lépine, Clarisse Choueiri, E. Diego Mercerat, and Plilippe Guéguen***
 
-*Corresponding authors: arnaud.montabert@ens-paris-saclay.fr, cedric.giry@ens-paris-saclay.fr*
+**Corresponding authors:** arnaud.montabert@ens-paris-saclay.fr, cedric.giry@ens-paris-saclay.fr
 
 ***How to cite this work*** Montabert, A.; Giry, C.; Limoge Schraen, C.; Lépine, J.; Choueiri, C. Mercerat, E. D.; Guéguen, P. An Open Database to Evaluate the Fundamental Frequency of Historical Masonry Towers through Empirical and Physics-based Formulations. Buildings 2023
 
