@@ -6,7 +6,7 @@
 
 ***How to cite this work*** Montabert, A.; Giry, C.; Limoge Schraen, C.; Lépine, J.; Choueiri, C. Mercerat, E. D.; Guéguen, P. An Open Database to Evaluate the Fundamental Frequency of Historical Masonry Towers through Empirical and Physics-based Formulations. Buildings 2023
 
-![class structure](figure/time_SAM.png)
+![tower_model](./figure/time_SAM.png)
 
 ## Scientific motivation
 Cultural Heritage buildings are complex but of inestimable value. They requires the synergy of all involved communities. We assembled a large database of historical masonry towers through an extensive literature review in the continuity of previous valuable works ([1-11]). The database collects information about the towers features and the measured fundamental frequency. Moreover, Python scripts are developped to evaluate their fundamental frequency based on empirical, physics-based formumlation, and also a Rayleigh-Ritz approach. The database and the code are available. We highly encourage the community to provide us the characteristics of new instrumented masonry towers to update the **TURRIS** database. Please contact the corresponding authors. 
