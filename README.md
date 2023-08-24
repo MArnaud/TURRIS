@@ -6,6 +6,8 @@
 
 ***How to cite this work*** Montabert, A.; Giry, C.; Limoge Schraen, C.; Lépine, J.; Choueiri, C. Mercerat, E. D.; Guéguen, P. An Open Database to Evaluate the Fundamental Frequency of Historical Masonry Towers through Empirical and Physics-based Formulations. Buildings 2023
 
+![class structure](figure/time_SAM.png)
+
 ## Scientific motivation
 Cultural Heritage buildings are complex but of inestimable value. They requires the synergy of all involved communities. We assembled a large database of historical masonry towers through an extensive literature review in the continuity of previous valuable works ([1-11]). The database collects information about the towers features and the measured fundamental frequency. Moreover, Python scripts are developped to evaluate their fundamental frequency based on empirical, physics-based formumlation, and also a Rayleigh-Ritz approach. The database and the code are available. We highly encourage the community to provide us the characteristics of new instrumented masonry towers to update the **TURRIS** database. Please contact the corresponding authors. 
 
@@ -39,7 +41,19 @@ Cultural Heritage buildings are complex but of inestimable value. They requires 
 - *OMA_technique* : the technique used to identify modal parameters 
 - *min_f0* [Hz]: the minimum measured fundamental frequency measured over time  
 - *max_f0*  [Hz]: the maximum measured fundamental frequency measured over time 
-- *std_f0* [[Hz]: the standard deviation of fundamental frequency measured over time 
+- *std_f0* [[Hz]: the standard deviation of fundamental frequency measured over time
+
+## Code description
+### Empirical and physics-based formulation to evaluate the fundamental frequency of a tower
+The codes to compute the fundamental frequency using empirical and/or physics based formuations are provided in the script *EmpiricalPhysicsBasedModel.py*. The jupyter notebook entitled Empirical_Physical_Relation.ipynb as been written to provide theoritical background and an example of use.
+
+### Evaluating the fundamental frequency using a Rayleigh-Ritz approach
+A Rayleigh-Ritz approach based on a Timoshenko formulation is proposed in the python script *Beam.py*. The notebook *Rayleigh_Ritz.ipynb* describe theoritical background, and a description of the code.
+
+## Acknowledgements
+The authors kindly acknowledge the institutions and researchers who provided
+additional and helpful information of masonry towers features: the municipality of Montboucher-sur-Jabron, Fernando Lopez-Caballero for the fruitful discussion and the advice regarding the sensitivity analysis, Clotilde Chambreuil and Héloïse Rostagni for their help in completing the database. 
+This authors wish to express their most grateful thanks to the French National Research Agency (ANR) for the funding of the ACROSS project (ANR-20-CE03–0003) by which a part of this study has been carried out.
 
 ## References
 **[1]** Lund, J.; Selby, A.; Wilson, J. The dynamics of bell towers-a survey in northeast England. WIT Transactions on The Built Environment 1995, 17, 8.
