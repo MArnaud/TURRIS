@@ -6,7 +6,7 @@
 
 ***How to cite this work*** Montabert, A.; Giry, C.; Limoge Schraen, C.; Lépine, J.; Choueiri, C. Mercerat, E. D.; Guéguen, P. An Open Database to Evaluate the Fundamental Frequency of Historical Masonry Towers through Empirical and Physics-based Formulations. Buildings 2023
 
-<img src="/img/contact.png" alt="tower_model" width="400" height="auto">
+<img src="/figure/timo_SAM.png" alt="tower_model" width="400" height="auto">
 
 
 ## Scientific motivation
