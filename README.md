@@ -40,7 +40,7 @@ You can share your information by **filling the following form: <a href="https:/
 - *density* [kg.m-3]: the mass density 
 - *Poisson_ratio* : the Poisson ratio 
 - *duration* [minute]: the duration of the records 
-- *sampling* [Hz] : the sampling rate of the records 
+- *sampling_rate* [Hz] : the sampling rate of the records 
 - *info* : any information about potential damage or retrofitting actions 
 - *OMA_technique* : the technique used to identify modal parameters 
 - *min_f0* [Hz]: the minimum measured fundamental frequency measured over time  
