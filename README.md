@@ -1,6 +1,6 @@
 # TURRIS: an open source database and Python tools to compute the fundamental frequency of historic masonry towers
  
-**Authors:** *Arnaud Montabert, Cédric Giry, Claire Limoge Schraen, Jade Lépine, Clarisse Choueiri, E. Diego Mercerat, and Plilippe Guéguen*
+**Authors:** *Arnaud Montabert, Cédric Giry, Claire Limoge Schraen, Jade Lépine, Clarisse Choueiri, E. Diego Mercerat, and Philippe Guéguen*
 
 **Corresponding authors:** arnaud.montabert@ens-paris-saclay.fr, cedric.giry@ens-paris-saclay.fr
 
@@ -11,7 +11,9 @@
 </p>
 
 ## Scientific motivation
-Cultural Heritage buildings are complex but of inestimable value. They requires the synergy of all involved communities. We assembled a large database of historical masonry towers through an extensive literature review in the continuity of previous valuable works ([1-11]). The database collects information about the towers features and the measured fundamental frequency. Moreover, Python scripts are developped to evaluate their fundamental frequency based on empirical, physics-based formumlation, and also a Rayleigh-Ritz approach. The database and the code are available. We highly encourage the community to provide us the characteristics of new instrumented masonry towers to update the **TURRIS** database. You can share your information by filling the following form: <a href="https://framaforms.org/turris-database-sharing-information-about-features-of-historical-masonry-towers-1692963128">TURRIS form</a>". We will keep the authors involved in the project. 
+Cultural Heritage buildings are complex but of inestimable value. They requires the synergy of all involved communities. We assembled a large database of historical masonry towers through an extensive literature review in the continuity of previous valuable works ([1-11]). The database collects information about the towers features and the measured fundamental frequency. Moreover, Python scripts are developped to evaluate their fundamental frequency based on empirical, physics-based formumlation, and also a Rayleigh-Ritz approach. The database and the code are available. We highly encourage the community to provide us the characteristics of new instrumented masonry towers to update the **TURRIS** database. 
+
+You can share your information by **filling the following form: <a href="https://framaforms.org/turris-database-sharing-information-about-features-of-historical-masonry-towers-1692963128">TURRIS form</a>.** We will keep the authors involved in the project. 
 
 ## Description of the TURRIS database
 **T**owers feat**UR**es & f**R**equenc**I**es databa**S**e (TURRIS) is an open database collecting information of 244 historical masonry towers and information about the associated dynamic identification. Each tower is described by 20 parameters (identification, building name, country, town, latitude, longitude, height, effective height, shape of the section, regularity of the elevation, breadth, length, the minimum and maximum wall thickness, its relation with adjacent building, age, bells mass, Young modulus, mass density, Poisson ratio). Each Operational Modal Analysis survey is characterized by parameters (fundamental frequency, minimum, maximum, and standard deviation of the fundamental frequencies for long-term analysis, the nature of the mode shape, duration of the records, sampling rate, and identification technique). The 244 historical masonry towers are located worldwide (mainly in Europe). The TURRIS database allows studying the relationship between geometrical, material parameters, and fundamental frequency. The details of each field of the TURRIS database are given in the following. 
@@ -55,7 +57,9 @@ A Rayleigh-Ritz approach based on a Timoshenko formulation is proposed in the py
 ## Acknowledgements
 The authors kindly acknowledge the institutions and researchers who provided
 additional and helpful information of masonry towers features: the municipality of Montboucher-sur-Jabron, Fernando Lopez-Caballero for the fruitful discussion and the advice regarding the sensitivity analysis, Clotilde Chambreuil and Héloïse Rostagni for their help in completing the database. 
-This authors wish to express their most grateful thanks to the French National Research Agency (ANR) for the funding of the ACROSS project (ANR-20-CE03–0003) by which a part of this study has been carried out.
+
+## Fundings
+The TURRIS database is a product of the ACROSS project (ANR-20-CE03–0003)  founded by the French National Research Agency. 
 
 ## References
 **[1]** Lund, J.; Selby, A.; Wilson, J. The dynamics of bell towers-a survey in northeast England. WIT Transactions on The Built Environment 1995, 17, 8.
